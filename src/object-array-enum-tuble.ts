@@ -57,7 +57,7 @@ const person2: {
 
 // Tuple
 person2.role.push('admin'); // TS doesn't catch this error
-person2.role[1] = 10; // TS doesn't catch this error
+// person2.role[1] = 10; // TS doesn't catch this error
 
 // ENUMS
 enum Role {

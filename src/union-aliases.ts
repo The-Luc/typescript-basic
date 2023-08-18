@@ -21,4 +21,4 @@ combine('Anna', 'Bob');
 const createUser = (name: string, gender: 1 | 2) => {
   //
 };
-createUser('Anna', 4); // TS help us to find the error
+// createUser('Anna', 4); // TS help us to find the error
